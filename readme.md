@@ -6,13 +6,16 @@
 
 Copy Mnemonic on Metamask extension. If you forgot it, you can reset it on **Settings/Reveal Seed Words**.
 ![enter image description here](https://raw.githubusercontent.com/gitvani/nodejs-ethereum/master/readme-images/01.png)
+
 On Windows, open PowerShell and use bellow command:
 
     $env:MNEMONIC='12 words of your mnemory'
 
 # Config Infura URL env variable:
 
-Register Infura URL on  [https://infura.io/](https://infura.io/)  . Check email to receive Infura URL.
+Register Infura URL on  [https://infura.io/](https://infura.io/)
+
+Check email to receive Infura URL.
 
 On Windows, open PowerShell and use bellow command:
 
