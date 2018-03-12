@@ -1,33 +1,32 @@
-#Install packages
+# Install packages
 
-npm install 
+    npm install
 
-#Config Mnemonic env variable:
+# Config Mnemonic env variable:
 
-Copy Mnemonic on Metamask extension. If you forgot it, you can reset it on Settings.
+Copy Mnemonic on Metamask extension. If you forgot it, you can reset it on **Settings/Reveal Seed Words**.
+![enter image description here](https://raw.githubusercontent.com/gitvani/nodejs-ethereum/master/readme-images/01.png)
+On Windows, open PowerShell and use bellow command:
 
-On Windows, open PowerShell and use bellow command: 
+    $env:MNEMONIC='12 words of your mnemory'
 
-$env:MNEMONIC='12 words of your mnemory bla bla bla'
+# Config Infura URL env variable:
 
-#Config Infura URL env variable:
+Register Infura URL on  [https://infura.io/](https://infura.io/)  . Check email to receive Infura URL.
 
-Register Infura URL on https://infura.io/ . Check email to receive Infura URL.
+On Windows, open PowerShell and use bellow command:
 
-On Windows, open PowerShell and use bellow command: 
+    $env:INFURA_URL="https://rinkeby.infura.io/yourgeneratedcode"
 
-$env:INFURA_URL="https://rinkeby.infura.io/yourgeneratedcode"
+# Compile contract:
 
-#compile contract:
+    node ./compile.js
 
- node ./compile.js
+# Run unit test:
 
-#run unit test: 
+    npm run test
 
-npm run test
+# Deploy to Rineby Test Net:
 
- #deploy to Rineby Test Net: 
-
- node ./deploy.js
-
+    node ./deploy.js
 
