@@ -5,7 +5,7 @@
 # Config Mnemonic env variable:
 
 Copy Mnemonic on Metamask extension. If you forgot it, you can reset it on **Settings/Reveal Seed Words**.
-![enter image description here](https://raw.githubusercontent.com/gitvani/nodejs-ethereum/master/readme-images/01.png)
+![enter image description here](https://i.imgur.com/EQg6gl2.png)
 
 On Windows 10, open **PowerShell** (not cmd) and use bellow command:
 
